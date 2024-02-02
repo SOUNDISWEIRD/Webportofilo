@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #263936;
+}
+
+
+#navigationbar {
+    background-color: #726767;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 65px;
+}
+
+.noe {
+    position: fixed;
+    background-color: white;
+    text-align: left;
+    left: 0;
+}
+
+.logo {
+    position: fixed;
+    width: 5vw;
+    height: auto;
+    right: 0; 
+    top: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+} 
+
+.Knapp_om_meg {
+    position: fixed;
+    width: 5vw;
+    height: auto;
+    right: 0; 
+    top: 0;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+#knpmg{
+    text-decoration: none;
+    color: black;
+}
+
+.Bilde_av_meg {
+    position: fixed;
+    width: 25vw;
+    height: auto;
+    right: 0; 
+    top: 0;
+    margin-top: 9rem;
+    margin-right: 1rem;
+}
+
+#text1 {
+    position: absolute;
+    width: 28vw;
+    height: auto;
+    left: 1%;
+    top: 10%;
+    bottom: 90%;
+    margin-top: 9rem;
+    margin-right: 1rem;
+}
+
+#text2 {
+    position: absolute;
+    width: 28vw;
+    height: auto;
+    left: 1%;
+    top: 10%;
+    bottom: 90%;
+    margin-top: 30rem;
+    margin-right: 1rem;
+}
+

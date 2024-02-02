@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyder</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+    <img class="fpI" src="Bilder/fb.png" alt="Lyder som går i skogen i soloppgangen">
+    <nav id="navigationbar">
+        <button class="Knapp_om_meg"><a href="Meg.html" id="knpmg">Om Meg</a></button>
+        <header><h1>Mitt Arbeid</h1></header>
+        <img class="logo" src="Bilder/LOGO.png" alt="Lyder som går i skogen i soloppgangen">
+    </nav>
+
+    <img class="White" src="Bilder/White_bilde.png" alt="Firkant">
+   <button id="buttonClick3"> <img class="ps" src="Bilder/Blå.png" alt="Firkant"></button>
+    <h2 class="psText">Photoshop</h2>
+    <button id="buttonClick2"> <img class="bilde2" src="Bilder/FNAF.png" alt="FNAF_ineraktivhistorie"> </button>
+    <h2 class="text2">Interaktiv historie</h2>
+    <button id="buttonClick"> <img class="bilde3" src="Bilder/Lyd knapp.png" alt="FNAF_ineraktivhistorie"> </button>
+    <h2 class="text3">SoundTrap</h2>
+
+
+
+
+    <img id="Musikk_bilde_sh" src="Bilder/Musikk_bilde.png" alt="Bilde av min musikk oppgave i SoundTrap">
+    <img id="M_knapp" src="Bilder/M_knapp.png" alt="Bilde av knapp for å spille musikk" >
+    <button id="M_knapp2" onclick="playmusikk()"></button>
+    <script>
+        function playmusikk() {
+            let mySound = new Audio('The Devils Theme (1).mp3')
+            mySound.play()
+        }
+    </script>
+
+
+    <img id="fnaf_bilde_sh" src="Bilder/fnaf_bilde.png" alt="Bilde av Interaktiv historie">
+    <img id="F_knapp" src="Bilder/f_knapp.png" alt="Bilde av knapp for å spille av en jumpscare">
+
+
+    <img id="ps_bilde_sh" src="Bilder/Ps_bilde.png" alt="Bilde av Film plakat">
+   
+
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
